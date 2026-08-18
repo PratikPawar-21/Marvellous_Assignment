@@ -1,0 +1,24 @@
+def Addition(no1,no2):
+
+    Ans = no1 + no2
+    return Ans 
+
+def Subtraction(no1,no2):
+
+    Ans = no1 - no2
+    return Ans 
+
+print("Enter first number:")
+value1 = int(input())
+
+print("Enter second number:")
+value2 = int(input())
+
+Ret = Addition(value1,value2)
+
+print("Addition is :",Ret)
+
+Ret = Subtraction(value1,value2)
+
+print("Subtraction is :",Ret)
+
